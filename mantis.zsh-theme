@@ -8,7 +8,9 @@ ZSH_THEME_GIT_PROMPT_MODIFIED="%{$fg[yellow]%} +"
 ZSH_THEME_GIT_PROMPT_DIVERGED="%{$fg[red]%} ⇕"
 ZSH_THEME_GIT_PROMPT_BEHIND="%{$fg[blue]%} ⇓"
 ZSH_THEME_GIT_PROMPT_AHEAD="%{$fg[green]%} ⇑"
-ZSH_THEME_GIT_PROMPT_UNTRACKED=""
+ZSH_THEME_GIT_PROMPT_UNTRACKED="%{$fg[yellow]%} +"
+ZSH_THEME_GIT_PROMPT_RENAMED="%{$fg[yellow]%} +"
+ZSH_THEME_GIT_PROMPT_DELETED="%{$fg[yellow]%} -"
 
 
 RPROMPT='%(?.✔.%{$fg[red]%}✘%f)'

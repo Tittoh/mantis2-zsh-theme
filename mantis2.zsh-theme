@@ -15,5 +15,5 @@ ZSH_THEME_GIT_PROMPT_DELETED="%{$fg[yellow]%} -"
 
 RPROMPT='%(?.✔.%{$fg[red]%}✘%f)'
 PROMPT='
-╭─ 📂%1~ $(git_prompt_info)$(git_prompt_status)%{$reset_color%}
+╭─📂 %1~ $(git_prompt_info)$(git_prompt_status)%{$reset_color%}
 ╰→ $ '

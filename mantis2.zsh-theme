@@ -31,4 +31,4 @@ ZSH_THEME_GIT_PROMPT_DELETED="%{$fg[yellow]%} -"
 RPROMPT='%(?.%{$fg[green]%}✔%f.%{$fg[red]%}✘%f)'
 PROMPT='${FG[236]}${(l.$(mantis_dash)..─.)}%{$reset_color%}
 ╭─📁 %{$fg_bold[cyan]%}%c%{$reset_color%} $(git_prompt_info)$(git_prompt_status)%{$reset_color%}
-╰─❯$ '
+╰──%{$fg[magenta]%}❯%{$reset_color%} '
